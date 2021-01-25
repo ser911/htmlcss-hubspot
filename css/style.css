@@ -11,3 +11,86 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 /* /GOOGLE FONTS */
+
+/* TOP-HEADER */
+#top-header *{
+font-size: 12px;
+}
+
+#top-header{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid rgb(51,71,91);
+  position: relative;
+}
+
+#top-header i {
+  font-size: 14px;
+}
+
+.top-h-left{
+  padding: 20px 0;
+  margin-left: 10%;
+  margin-right: 70%;
+  display: inline-block;
+  color: rgb(51, 71, 91);
+  font-weight: 500;
+  }
+
+#arrow{
+  border-right: 1px solid rgb(51, 71, 91);
+  border-color: rgb(51, 71, 91);
+  padding-left: 3px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.top-h-right{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.top-h-right > a{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 122, 89);
+  margin-left: 10px;
+}
+
+#button-1{
+color: rgb(255, 122, 89);
+
+}
+
+#button-2{
+background-color: rgb(255, 122, 89);
+color: #fff;
+}
+/* /TOP-HEADER */
+
+/* HERO-MENU */
+#hero-menu{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid rgb(51,71,91);
+}
+
+#hero-menu > img{
+  margin-left: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 70px;
+}
+
+
+
+
+
+
+
+/* /HERO-MENU */
