@@ -1,0 +1,13 @@
+/* RESET SETTINGS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /RESET SETTINGS */
+
+/* GOOGLE FONTS */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* /GOOGLE FONTS */
