@@ -155,7 +155,6 @@ header {
 /* /HERO */
 /* SPLITTER */
 #splitter {
-  width: 100%;
   min-height: 80px;
   background-color: #AFEBE4;
   border-top: 2px solid #33475B;
@@ -184,6 +183,11 @@ header {
 .main-b-top {
   text-align: center;
   color: rgb(51, 71, 91);
+}
+
+.main-b-top>h2{
+  font-size: 26px;
+  font-weight: 900;
 }
 
 .main-b-top>p {
@@ -240,15 +244,14 @@ header {
   color: rgb(51, 71, 91);
 }
 
-.b-middle-2>p, {
-  padding-right: 45px;
-  padding-left: 65px;
+.b-middle-2>p {
   font-size: 14px;
 }
 
 .b-middle-2>h3 {
   padding-top: 60px;
   padding-bottom: 25px;
+  font-size: 22px;
 }
 
 .b-middle-2>p, .b-middle-2>h4 {
@@ -270,6 +273,8 @@ header {
   margin-bottom: 20px;
   text-transform: uppercase;
   padding-right: 45px;
+  font-weight: 800;
+  font-size: 18px;
 }
 
 .b-middle-2>ul {
@@ -300,17 +305,18 @@ header {
   margin: 0 auto;
   text-align: center;
   font-size: 14px;
+
 }
 
 .b-bottom-1, .b-bottom-2, .b-bottom-3 {
   float: left;
   width: calc(1223px / 3 - 32px);
   min-height: 400px;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 35px;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 2px 2px #d3d3d3;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 /* COLUMN LAYOUT */
@@ -340,6 +346,8 @@ header {
   color: rgb(51, 71, 91);
   padding-top: 15px;
   padding-bottom: 30px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .main-b-bottom p {
@@ -410,6 +418,12 @@ header {
 .g-section-top {
   text-align: center;
 }
+
+.g-section-top>h2{
+  font-size: 26px;
+  font-weight: 900,
+}
+
 
 .g-section-top>h2, .g-section-top>p {
   color: #FFFFFF;
@@ -562,10 +576,10 @@ header {
   vertical-align: top;
 }
 
-.l-main-2 * {}
-
 .l-main-2-left h2 {
   padding-top: 25px;
+  font-size: 26px;
+  font-weight: 900;
 }
 
 .l-main-2-left p {
