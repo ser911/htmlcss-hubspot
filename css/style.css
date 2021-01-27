@@ -77,7 +77,7 @@ header {
 #main-menu {
   background-color: #FFFFFF;
   position: relative;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -89,7 +89,7 @@ header {
 }
 
 .logo img {
-  width: 70px;
+  width: 100px;
 }
 
 #hero-menu {
@@ -112,6 +112,7 @@ header {
 
 #hero-menu ul li a i {
   padding-left: 7px;
+
 }
 
 /* /MAIN-MENU */
